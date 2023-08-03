@@ -1,1 +1,22 @@
-{"init_prompt": "\nPlease write a {type} novel about {topic} with about 50 chapters. Follow the format below precisely:\n\n    Begin with the name of the novel.\n    Next, write an outline for the first chapter. The outline should describe the background and the beginning of the novel.\n    Write the first three paragraphs with their indication of the novel based on your outline. Write in a novelistic style and take your time to set the scene.\n    Write a summary that captures the key information of the three paragraphs.\n    Finally, write three different instructions for what to write next, each containing around five sentences. Each instruction should present a possible, interesting continuation of the story.\n    The output format should follow these guidelines:\n    Name: <name of the novel>\n    Outline: <outline for the first chapter>\n    Paragraph 1: <content for paragraph 1>\n    Paragraph 2: <content for paragraph 2>\n    Paragraph 3: <content for paragraph 3>\n    Summary: <content of summary>\n    Instruction 1: <content for instruction 1>\n    Instruction 2: <content for instruction 2>\n    Instruction 3: <content for instruction 3>\n    \n    Make sure to be precise and follow the output format strictly.\n    \n    "}
+{"init_prompt": "\n请写一部关于{topic}的{type}小说，包含约50章。严格遵循以下格式：
+
+    1. 从小说的名称开始。
+    2. 接下来，写第一章的大纲。大纲应描述小说的背景和开始。
+    3. 接着写前三段，根据大纲中的内容创作小说的开始。用小说的文体写作，花时间设置场景。
+    4. 写一个概述，概述前三段的关键信息。
+    5. 最后，写三个不同的指令，每个指令包含大约五句话。每个指令应呈现可能的、有趣的故事延续。
+
+输出格式应遵循以下准则：
+    名称: <小说名称>
+    大纲: <第一章大纲>
+    段落1: <段落1内容>
+    段落2: <段落2内容>
+    段落3: <段落3内容>
+    概述: <概述内容>
+    指令1: <指令1内容>
+    指令2: <指令2内容>
+    指令3: <指令3内容>
+    
+确保准确，并严格遵循输出格式。
+
+"}
